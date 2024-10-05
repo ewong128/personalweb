@@ -1,0 +1,71 @@
+
+nav {
+    background-color: #006; 
+    padding: 10px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+nav ul li {
+    margin: 0; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #7cbecd; /* Change background on hover */
+}
+
+.header-title {
+    font-family: 'Protest Strike', cursive;
+    text-align: center; /* Center header */
+}
+
+main h2, main h3 {
+    font-family: 'PT Sans Narrow', sans-serif; /* Consistent font for headers */
+    text-align: center; /* Center align for headers */
+}
+
+main p,br {
+    font-family: 'Handlee', cursive; /* Consistent font for paragraphs */
+    text-align: left; /* Default text alignment */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #91d1b6; /* Background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+main {
+    padding: 20px; /* Add some padding around the main content */
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: auto; /* Center the main content */
+}
+
+ul {
+    list-style-type: disc; /* Default disc bullet */
+    padding-left: 20px; /* Add some padding to indent */
+}
+
+ul li {
+    font-family: 'Handlee', cursive; /* Set a custom font for list items */
+    margin: 5px 0; /* Add some spacing between items */
+}
